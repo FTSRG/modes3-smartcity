@@ -1,6 +1,7 @@
 # Dashboard
 The aim of this part was to create a simple, real-time overview of the devices' status that are part of the current system.
 The Dashboard includes two main pages:
+
 * a list-like overview of all devices in the system with some of their significant health data 
 * and a page dedicated to per device overview with
   * OS and Kernel information
