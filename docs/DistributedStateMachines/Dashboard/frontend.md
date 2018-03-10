@@ -4,9 +4,9 @@ The Dashboard includes two main pages:
 
 * a list-like overview of all devices in the system with some of their significant health data 
 * and a page dedicated to per device overview with
- * OS and Kernel information
- * CPU, RAM and Swap data (with visualization)
- * and a list of running processes.
+    * OS and Kernel information
+    * CPU, RAM and Swap data (with visualization)
+    * and a list of running processes.
 * access to server and remote terminals and a specific pop-up to deploy packages
 
 ## Frontend/design
