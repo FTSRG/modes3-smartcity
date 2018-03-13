@@ -4,6 +4,7 @@
 Hi All!  We are a group of students and researchers from the Budapest University of Technology and Economics. You will see our innovative project of building a smart city, on top of a demonstrator railway system. The ingredients of our project are various open-source technologies (Eclipse, Apache) and we heavily relied on the well-established foundation of the fog computing paradigm.
 
 Our three main achievements will be detailed in the following:
+
 1. We introduce a smart transportation system, with the innovative use of IoT technologies.
 2. We introduce a developer tool supporting the design and implementation of distributed fog applications.
 3. We developed an end-to-end solution for data collection and analysis based on open-sourcetechniques
