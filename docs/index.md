@@ -7,7 +7,7 @@ Our three main achievements will be detailed in the following:
 
 1. We introduce a smart transportation system, with the innovative use of IoT technologies.
 2. We introduce a developer tool supporting the design and implementation of distributed fog applications.
-3. We developed an end-to-end solution for data collection and analysis based on open-sourcetechniques
+3. We developed an end-to-end solution for data collection and analysis based on open-source techniques
 
 
 MoDeS3 – Smart City project integrates these innovative solutions into a common framework and testbed.
