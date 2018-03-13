@@ -26,6 +26,7 @@ In the following posts, we will detail each component and share the experiences 
 
 
 Our results are the following:
+
 - Integration of Eclipse and Apache open-source technologies into a consistent framework
 - Development of an innovative DDS-based fog-computing design tool, tailored to the requirements of complex IIoT applications
 - Novel open-source testbed for IIoT systems in the form of a railway transportation system
