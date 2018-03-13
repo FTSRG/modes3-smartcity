@@ -1,0 +1,6 @@
+site_name: MoDeS3 SmartCity
+pages:
+    - 'Introduction': 'index.md'
+    - 'Blog':
+    	- 'Dashboard Frontend': 'blog/frontend.md'
+    	- 'DDS Implementation': 'blog/opensplice_dds.md'
