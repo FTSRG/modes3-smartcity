@@ -35,7 +35,7 @@ For a simple implementation look at the project in the `standalone_project` fold
     . ./path/to/release.com
 ```
     
-    * Add to classpath: `$OSPL_HOME/jar/dcpssaj5.jar`, `lib/hu.bme.mit.gamma.ddslib.jar`
+   * Add to classpath: `$OSPL_HOME/jar/dcpssaj5.jar`, `lib/hu.bme.mit.gamma.ddslib.jar`
 
 * Both Subscription and Publishing
 * Import `hu.bme.mit.gamma.ddslib.model.*`, `hu.bme.mit.gamma.ddslib.opensplice.*`, `hu.bme.mit.gamma.ddslib.threads.*`
