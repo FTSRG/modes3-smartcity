@@ -9,3 +9,5 @@ pages:
     - 'Dashboard': 
         - 'Introduction': 'blog/dashboard/monitoring_solution.md'
         - 'Frontend': 'blog/dashboard/frontend.md'
+    - 'IoT':
+	    - 'IIot in smart cities': 'blog/iot/IIoT_Architecture.md'
