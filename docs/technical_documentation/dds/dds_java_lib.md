@@ -31,9 +31,9 @@ For a simple implementation look at the project in the `standalone_project` fold
 
     * Run `release.com` from inside your OpenSplice installation folder
     
-    ``` bash
+``` bash
     . ./path/to/release.com
-    ```
+```
     
     * Add to classpath: `$OSPL_HOME/jar/dcpssaj5.jar`, `lib/hu.bme.mit.gamma.ddslib.jar`
 
@@ -42,15 +42,15 @@ For a simple implementation look at the project in the `standalone_project` fold
 
     * Initialize the Service Environment:
     
-    ``` java
+``` java
     DDSLib.init();
-    ```
+```
     
     * Create a Topic<sup>1</sup>:
     
-    ``` java
+``` java
     Topics exampleTopic = new Topics("exPart", "exTopic");
-    ```
+```
     
 * Only Subscription
 
@@ -65,26 +65,26 @@ For a simple implementation look at the project in the `standalone_project` fold
                 //Thing to do when a message arrives
         }
     }
-    ```
+```
     
     * Instantiate the above mentioned Listener class:
     
-    ``` java
+``` java
     MyListener myListener = new MyListener();              
-    ```
+```
     
     * Register the Listener instance:
     
-    ``` java
+``` java
      exampleTopic.addSubscriptionListener(myListener); 
-     ```
+ ```
      
      * Don't forget to unregister & close
     
-    ``` java
+``` java
         exampleTopic.removeSubscriptionListener(myListener);
         exampleTopic.closeTopic();  
-    ```
+```
     
 * Only publishing
     
@@ -98,13 +98,13 @@ For a simple implementation look at the project in the `standalone_project` fold
     {
         e.printStackTrace();
     }
-    ```
+```
     
     * close topic
     
-    ``` java
+``` java
     exampleTopic.closeTopic();  
-    ```
+```
 
 Important: you need to create a `Topics` instance for both the receiving and the transmitting parties! 
 
