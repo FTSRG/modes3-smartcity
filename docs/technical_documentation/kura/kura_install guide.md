@@ -3,7 +3,7 @@ We chose Eclipse Kura to manage the gateway components of our system. Kura helps
 
 
 ## Eclipse Kura Quick Start Guide on Raspberry Pi 3
- The emergence of an Internet of Thing (IoT) service gateway model running modern software stacks, operating on the edge of an IoT deployment as an aggregator and controller, has opened up the possibility of enabling enterprise level technologies to IoT gateways. Eclipse Kura is an Eclipse IoT project that provides a platform for building IoT gateways. It is a smart application container that enables remote management of such gateways and provides a wide range of APIs for allowing you to write and deploy your own IoT application. MoDeS3 team made this tutorial, because after we followed the [official tutorial](http://eclipse.github.io/kura/intro/raspberry-pi-quick-start.html), we got an „Error 500 The call failed on the server” message.
+ The emergence of an Internet of Thing (IoT) service gateway model running modern software stacks, operating on the edge of an IoT deployment as an aggregator and controller, has opened up the possibility of enabling enterprise level technologies to IoT gateways. Eclipse Kura is an Eclipse IoT project that provides a platform for building IoT gateways. It is a smart application container that enables remote management of such gateways and provides a wide range of APIs for allowing you to write and deploy your own IoT application. MoDeS3 team made this tutorial, because after we followed the [official tutorial](http://eclipse.github.io/kura/intro/raspberry-pi-quick-start.html), we got an *Error 500 The call failed on the server* message.
 
 
 ## Requirements
@@ -16,7 +16,7 @@ We chose Eclipse Kura to manage the gateway components of our system. Kura helps
 
 ## Steps
 
-1. Download [“Raspbian Stretch with desktop“](https://www.raspberrypi.org/downloads/raspbian/) to your PC
+1. Download [Raspbian Stretch with desktop](https://www.raspberrypi.org/downloads/raspbian/) to your PC
 2. UnZip the downloaded file
 3. Format your SD card using [SD Card Formatter](https://www.sdcard.org/downloads/formatter_4/). You will need to use an image writing tool to install the image you have downloaded on your SD card. **Etcher** is a graphical SD card writing tool that works on Mac OS, Linux and Windows, and is the easiest option for most users. Etcher also supports writing images directly from the zip file, without any unzipping required. To write your image with Etcher:
 
@@ -24,7 +24,7 @@ We chose Eclipse Kura to manage the gateway components of our system. Kura helps
 * Connect an SD card reader with the SD card inside.
 * Open Etcher and select from your hard drive the Raspberry Pi .img or .zip file you wish to write to the SD card.
 * Select the SD card you wish to write your image to.
-* Review your selections and click 'Flash!' to begin writing data to the SD card.
+* Review your selections and click *Flash!* to begin writing data to the SD card.
 
 ### Install Raspbian system
 
@@ -47,7 +47,7 @@ We chose Eclipse Kura to manage the gateway components of our system. Kura helps
 3. Download the Kura package:
 ```wget http://download.eclipse.org/kura/releases/<version>/kura_<version>_raspberry-pi-2-3_installer.deb```
 *Note: replace <version> in the URL above with the version number of the latest release (e.g. 3.1.0)*
-4. Install Kura: 
+4. Install Kura:
 ```sudo gdebi kura_<version>_raspberry-pi-2-3_installer.deb```
 5. Reboot the Raspberry Pi:
 ```sudo reboot```

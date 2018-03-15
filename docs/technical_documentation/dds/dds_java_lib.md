@@ -31,13 +31,16 @@ For a simple implementation look at the project in the `standalone_project` fold
 
 
 * For both Compiling and Running
+
     * Run `release.com` from inside your OpenSplice installation folder
     ``` bash
     . ./path/to/release.com
     ```
     * Add to classpath: `$OSPL_HOME/jar/dcpssaj5.jar`, `lib/hu.bme.mit.gamma.ddslib.jar`
+
 * Both Subscription and Publishing
-    * Import `hu.bme.mit.gamma.ddslib.model.*`, `hu.bme.mit.gamma.ddslib.opensplice.*`, `hu.bme.mit.gamma.ddslib.threads.*`
+* Import `hu.bme.mit.gamma.ddslib.model.*`, `hu.bme.mit.gamma.ddslib.opensplice.*`, `hu.bme.mit.gamma.ddslib.threads.*`
+
     * Initialize the Service Environment:
     ``` java
     DDSLib.init();
@@ -46,7 +49,9 @@ For a simple implementation look at the project in the `standalone_project` fold
     ``` java
     Topics exampleTopic = new Topics("exPart", "exTopic");
     ```
+    
 * Only Subscription
+
     * Create a Listener class:
     ``` java
     import hu.bme.mit.gamma.ddslib.model.SubscriptionListener;
@@ -71,7 +76,9 @@ For a simple implementation look at the project in the `standalone_project` fold
         exampleTopic.removeSubscriptionListener(myListener);
         exampleTopic.closeTopic();  
     ```
+    
 * Only publishing
+    
     * Publish & wait for transmission (optional)
     ``` java
     exampleTopic.publishEvent("exEvent1", "exParams1");
