@@ -1,4 +1,4 @@
-# Dashboard
+# Frontend
 The aim of this part was to create a simple, real-time overview of the devices' status that are part of the current system.
 The Dashboard includes two main pages:
 
@@ -9,8 +9,9 @@ The Dashboard includes two main pages:
     * and a list of running processes.
 * access to server and remote terminals and a specific pop-up to deploy packages
 
-## Frontend/design
+## Design
 We used [Material Design Lite](https://getmdl.io/), as it relies only on html, CSS and vanilla javascript, works easily across most of the popular browsers and devices and is open-source (Apache License 2.0).
+
 ## Charts
 Charts are only used per device to offer a cleaner end result.
 
