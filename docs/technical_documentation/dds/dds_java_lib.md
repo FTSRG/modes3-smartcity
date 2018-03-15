@@ -50,6 +50,25 @@ For a simple implementation look at the project in the `standalone_project` fold
     
 * Only publishing
 ![scrs2](screenshot2.png)
+
+  * Publish & wait for transmission (optional)
+    
+    ``` java
+    exampleTopic.publishEvent("exEvent1", "exParams1");
+    try{
+        Thread.sleep(1000);
+    }catch(Exception e)
+    {
+        e.printStackTrace();
+    }
+    ```
+    
+  * close topic
+    
+    ``` java
+    exampleTopic.closeTopic();  
+    ```
+    
 Important: you need to create a `Topics` instance for both the receiving and the transmitting parties! 
 
 ### Example
