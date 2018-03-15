@@ -3,5 +3,6 @@ pages:
 - 'Introduction': 'index.md'
 - 'Blog':
     - 'DDS Implementation': 'blog/opensplice_dds.md'
-- 'Dashboard': 'blog/dashboard/monitoring_solution.md'
+- 'Dashboard': 
+    - 'Dashboard': 'blog/dashboard/monitoring_solution.md'
     - 'Dashboard Frontend': 'blog/dashboard/frontend.md'
