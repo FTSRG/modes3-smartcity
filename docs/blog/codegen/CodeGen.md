@@ -2,9 +2,9 @@
 
 The Gamma Statechart Composition Framework is a toolset to model, verify and generate code for component-based reactive systems. The framework builds on Yakindu, an open source statechart modeling tool and provides an additional modeling layer to instantiate a communicating network of statecharts. Compositionality is hierarchical, which facilitates the creation of reusable component libraries. Individual statecharts, as well as composite statechart networks can be validated and verified by an automated translation to UPPAAL, a model checker for timed automata. Once a complete model is built, designers can use the code generation functionality of the framework, which can generate Java code for the whole system.
 Our goal is to extend the capabilities of Gamma to:
-- be able to run the components in a distributed real-time environment
-- exploit the capabilities of the advanced DDS technology
-- provide a design tool for the development of complex, distributed fog computing applications
+* be able to run the components in a distributed real-time environment
+* exploit the capabilities of the advanced DDS technology
+* provide a design tool for the development of complex, distributed fog computing applications
 
 # Code generation from state machines to DDS execution environment
 After our first encounter with the Gamma Statechart Modeling Tools the idea of Gamma state machines communicating through DDS arose. As we were examining models, we thought it would be comfortable to run them on multiple computers. We could distribute the systems, and realize the communication over DDS. We could not find a tool for the development of distributed real-time applications, so our goal is to provide these capabilities. 
