@@ -9,7 +9,11 @@ pages:
     - 'Dashboard': 
         - 'Introduction': 'blog/dashboard/monitoring_solution.md'
         - 'Frontend': 'blog/dashboard/frontend.md'
+        - 'Remote Terminal': 'blog/dashboard/SSH.md'
     - 'IoT':
+        - 'Data Analysis': 'blog/iot/data_analysis.md'
+        - 'Scheduler': 'blog/iot/scheduler.md'
+        - 'Architecture': 'blog/iot/architecture.md'
         - 'IIot in smart cities': 'blog/iot/IIoT_Architecture.md'
 - 'Technical Documentation':
     - 'Kura':
