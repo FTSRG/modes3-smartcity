@@ -13,4 +13,6 @@ pages:
         - 'IIot in smart cities': 'blog/iot/IIoT_Architecture.md'
 - 'Technical Documentation':
     - 'Kura':
-	    - 'Installation Guide': 'technical_documentation/kura/kura_install guide.md'
+        - 'Installation Guide': 'technical_documentation/kura/kura_install guide.md'
+    - 'DDS':
+        - 'Java library for OpenSplice DDS': 'technical_documentation/dds/dds_java_lib.md'
