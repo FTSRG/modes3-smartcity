@@ -49,7 +49,6 @@ For a simple implementation look at the project in the `standalone_project` fold
 ![scrs1](screenshot1.png)
     
 * Only publishing
-![scrs2](screenshot2.png)
 
   * Publish & wait for transmission (optional)
     
