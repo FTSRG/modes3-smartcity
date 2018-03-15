@@ -1,7 +1,7 @@
 # GoTTY as an SSH frontend - an optimal solution?
 
 We have decided to develop not only an execution platform for out distributed system but also a management and monitoring system too. Our goal was to automatize as much of the work as possible and provide an end-to-end development and execution platform.
-Our goal is to manage the devices on LAN via SSH in a web browser, so we started researching to find the optimal solution just for that, preferably one that works out-of-the-box. It was not long until we realised that we had no such luck – it was really hard to find something useful for our project. 
+Our goal is to manage the devices on LAN via SSH in a web browser, so we started researching to find the optimal solution just for that, preferably one that works out-of-the-box. It was not long until we realised that we had no such luck Â– it was really hard to find something useful for our project. 
 
 # The problems
 
@@ -19,3 +19,4 @@ Out of the 6 clients we tried out we only found one that could mostly satisfy ou
 With the goal of making our tool as easy-to-use as possible in mind, we decided to employ the following scheme: On each of the pages on our Dashboard there is a link in the header to open a *remote terminal*, which will open an SSH session to either the webserver itself, or one of the devices.
 
 With that solved, we can do the last thing for our monitoring solution: we need to figure out a way to deploy the packages that we generate.
+
