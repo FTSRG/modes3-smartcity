@@ -41,16 +41,9 @@ For a simple implementation look at the project in the `standalone_project` fold
 * Import `hu.bme.mit.gamma.ddslib.model.*`, `hu.bme.mit.gamma.ddslib.opensplice.*`, `hu.bme.mit.gamma.ddslib.threads.*`
 
     * Initialize the Service Environment:
+    `DDSLib.init();`
     
-``` java
-    DDSLib.init();
-```
-    
-    * Create a Topic<sup>1</sup>:
-    
-``` java
-    Topics exampleTopic = new Topics("exPart", "exTopic");
-```
+    * Create a Topic<sup>1</sup>: `Topics exampleTopic = new Topics("exPart", "exTopic");`
     
 * Only Subscription
 
@@ -64,8 +57,7 @@ For a simple implementation look at the project in the `standalone_project` fold
         {
                 //Thing to do when a message arrives
         }
-    }
-```
+    }```
     
     * Instantiate the above mentioned Listener class:
     
