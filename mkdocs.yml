@@ -3,6 +3,9 @@ pages:
 - 'Introduction': 'index.md'
 - 'Blog':
     - 'DDS Implementation': 'blog/opensplice_dds.md'
+    - 'Gamma over DDS':
+        - 'List of technologies used': 'blog/codegen/Technologies.md'
+        - 'Code Generation': 'blog/codegen/CodeGen.md'
     - 'Dashboard': 
         - 'Introduction': 'blog/dashboard/monitoring_solution.md'
         - 'Frontend': 'blog/dashboard/frontend.md'
