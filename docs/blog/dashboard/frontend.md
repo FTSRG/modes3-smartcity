@@ -9,12 +9,6 @@ The Dashboard includes two main pages:
     * and a list of running processes.
 * access to server and remote terminals and a specific pop-up to deploy packages
 
-![Overview](overview.png)
-
-![Gauge chart](gauge_chart.png)
-
-![Line chart](line_chart.png)
-
 ## Design
 We used [Material Design Lite](https://getmdl.io/), as it relies only on html, CSS and vanilla javascript, works easily across most of the popular browsers and devices and is open-source (Apache License 2.0).
 
@@ -22,3 +16,10 @@ We used [Material Design Lite](https://getmdl.io/), as it relies only on html, C
 Charts are only used per device to offer a cleaner end result.
 
 The gauge charts (by [Chartist](https://gionkunz.github.io/chartist-js/)) give the user a graphical representation about the current status of the device, while the linechart (by [Chartjs](http://www.chartjs.org/)) provides a more detailed look on the changes of this status with time.
+
+
+![Gauge chart](gauge_chart.png)
+
+![Line chart](line_chart.png)
+
+![Overview](overview.png)
