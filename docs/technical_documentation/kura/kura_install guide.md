@@ -1,4 +1,5 @@
 ﻿# Why Kura?
+
 We chose Eclipse Kura to manage the gateway components of our system. Kura helps us to manage data and also the sensors while it also supports data transfer to other components. Kura integrates with the open-source Kapua framework which is also a huge advantage. Our goal in this project was to experiment with these techniques and develop a scalable and manageable system for data collection. In the following we introduce our experience of using Kura in an open-source environment, namely on Rapsberry Pi gateways.
 
 
