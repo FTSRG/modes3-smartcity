@@ -32,28 +32,31 @@ We chose Eclipse Kura to manage the gateway components of our system. Kura helps
 
 1. Boot the Raspberry Pi with the latest Raspbian image (starting from release 2.1.0 Kura only supports Debian 8 or above).
 2. Open terminal
-	* The dhcpcd5 package is not compatible with Kura and needs to be removed performing the following command:
-	```sudo apt-get purge dhcpcd5```
-	* NetworkManager conflicts with Kura network management, make sure that it is not installed performing the following command:
-	```sudo apt-get remove network-manager```
+3. The dhcpcd5 package is not compatible with Kura and needs to be removed performing the following command: `sudo apt-get purge dhcpcd5`
+
+	* NetworkManager conflicts with Kura network management, make sure that it is not installed performing the following command: `sudo apt-get remove network-manager`
+	
 	* Install the gdebi command line tool:
+	
 	```sudo apt-get update
 	sudo apt-get install gdebi-core
 	sudo apt-get purge openjdk*
 	sudo apt-get install openjdk-8-jdk```
  
 	* if you run `java –version` the output will be:
+	
 	```openjdk version”1.8.x_xxx”
 	OpenJDK Runtime Environment(…)
 	OpenJDK Client VM (…)```
 3. Download the Kura package:
+
 ```wget http://download.eclipse.org/kura/releases/<version>/kura_<version>_raspberry-pi-2-3_installer.deb```
 *Note: replace <version> in the URL above with the version number of the latest release (e.g. 3.1.0)*
 4. Install Kura:
+
 ```sudo gdebi kura_<version>_raspberry-pi-2-3_installer.deb```
-5. Reboot the Raspberry Pi:
-```sudo reboot```
-6. Kura setups a local web ui that is available using a browser via: http://<device-ip>
+5. Reboot the Raspberry Pi: `sudo reboot`
+6. Kura setups a local web ui that is available using a browser via: `http://<device-ip>`
 	
 	* Default username is: admin
 	* Default password is: admin
