@@ -50,7 +50,8 @@ For a simple implementation look at the project in the `standalone_project` fold
 * Only Subscription
 
     * Create a Listener class:
-    ``` java
+
+``` java
     import hu.bme.mit.gamma.ddslib.model.SubscriptionListener;
 
     public class MyListener implements SubscriptionListener{
@@ -77,7 +78,8 @@ For a simple implementation look at the project in the `standalone_project` fold
 * Only publishing
     
     * Publish & wait for transmission (optional)
-    ``` java
+    
+``` java
     exampleTopic.publishEvent("exEvent1", "exParams1");
     try{
         Thread.sleep(1000);
