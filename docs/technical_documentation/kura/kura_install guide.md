@@ -48,6 +48,7 @@ We chose Eclipse Kura to manage the gateway components of our system. Kura helps
 	```openjdk version”1.8.x_xxx”
 	OpenJDK Runtime Environment(…)
 	OpenJDK Client VM (…)```
+	
 3. Download the Kura package:
 
 ```wget http://download.eclipse.org/kura/releases/<version>/kura_<version>_raspberry-pi-2-3_installer.deb```
@@ -55,8 +56,10 @@ We chose Eclipse Kura to manage the gateway components of our system. Kura helps
 4. Install Kura:
 
 ```sudo gdebi kura_<version>_raspberry-pi-2-3_installer.deb```
+
 5. Reboot the Raspberry Pi: `sudo reboot`
+
 6. Kura setups a local web ui that is available using a browser via: `http://<device-ip>`
-	
+
 	* Default username is: admin
 	* Default password is: admin
