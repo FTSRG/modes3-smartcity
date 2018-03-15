@@ -59,7 +59,7 @@ For a simple implementation look at the project in the `standalone_project` fold
               
     * Instantiate the above mentioned Listener class:
         
-          MyListener myListener = new MyListener();              
+                MyListener myListener = new MyListener();              
         
     * Register the Listener instance:
     
