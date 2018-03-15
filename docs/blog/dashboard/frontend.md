@@ -9,6 +9,12 @@ The Dashboard includes two main pages:
     * and a list of running processes.
 * access to server and remote terminals and a specific pop-up to deploy packages
 
+![Overview](overview.png)
+
+![Gauge chart](gauge_chart.png)
+
+![Line chart](line_chart.png)
+
 ## Design
 We used [Material Design Lite](https://getmdl.io/), as it relies only on html, CSS and vanilla javascript, works easily across most of the popular browsers and devices and is open-source (Apache License 2.0).
 

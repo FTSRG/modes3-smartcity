@@ -11,6 +11,8 @@ There are two types of devices:
 
 With this kind of architecture we keep things as modular as we can: Bridges do not need to be bound to a specific device, they can be placed redundantly, be configured without much fuss and so on.
 
+![modularity](modular.png)
+
 For the above mentioned actions there are 4 main partitions in our DDS domain: 
 
 * Health: Pings and errors from the clients to the bridges

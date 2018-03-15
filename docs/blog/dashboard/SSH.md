@@ -16,6 +16,8 @@ Out of the 6 clients we tried out we only found one that could mostly satisfy ou
 
 [GoTTY](https://github.com/yudai/gotty) - This tool does way more than what we need: In short, it executes a program on the server side and tunnels it through to a websocket and, without much fuss on the client side, makes the browser window pointed to its address behave *exactly* like a TTY, therefore making it an optimal solution for our needs - we simply launch the OpenSSH client on the server with a unique port number and an address-username combination.
 
+![remote terminal](gotty.png)
+
 With the goal of making our tool as easy-to-use as possible in mind, we decided to employ the following scheme: On each of the pages on our Dashboard there is a link in the header to open a *remote terminal*, which will open an SSH session to either the webserver itself, or one of the devices.
 
 With that solved, we can do the last thing for our monitoring solution: we need to figure out a way to deploy the packages that we generate.
