@@ -6,8 +6,8 @@ The main feature of our beloved Dashboard is of course the monitoring system tha
 
 There are two types of devices:
 
-    * Clients: collect the data, send it through DDS
-    * Bridge: "translates" data got from DDS to the database, reacts to errors, registers pings from devices, etc.
+* Clients: collect the data, send it through DDS
+* Bridge: "translates" data got from DDS to the database, reacts to errors, registers pings from devices, etc.
 
 With this kind of architecture we keep things as modular as we can: Bridges do not need to be bound to a specific device, they can be placed redundantly, be configured without much fuss and so on.
 
