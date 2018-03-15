@@ -11,3 +11,6 @@ pages:
         - 'Frontend': 'blog/dashboard/frontend.md'
     - 'IoT':
         - 'IIot in smart cities': 'blog/iot/IIoT_Architecture.md'
+- 'Technical Documentation':
+    - 'Kura':
+	    - 'Installation Guide': 'technical_documentation/kura/kura_install guide.md'
