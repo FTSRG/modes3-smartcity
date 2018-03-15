@@ -2,8 +2,8 @@ site_name: MoDeS3 SmartCity
 pages:
 - 'Introduction': 'index.md'
 - 'Blog':
-    - 'DDS Implementation': 'blog/opensplice_dds.md'
     - 'Gamma over DDS':
+        - 'DDS Implementation': 'blog/opensplice_dds.md'
         - 'List of technologies used': 'blog/codegen/Technologies.md'
         - 'Code Generation': 'blog/codegen/CodeGen.md'
     - 'Dashboard': 
