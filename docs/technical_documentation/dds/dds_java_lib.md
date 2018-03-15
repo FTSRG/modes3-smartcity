@@ -17,11 +17,8 @@ Always run `. $OSPL_HOME/release.com` before compiling or running the applicatio
 
 1. Build only - `make` or `make compile`
 2. Example application - `make run`
-
 This will compile and start the example application.
-
 3. Library - `make package`
-
 This will compile the library and place it into the `lib/` folder.
 A pre-built version is already in there, but you might want to consider rebuilding it if you encounter any problems.
 
