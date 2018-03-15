@@ -53,7 +53,7 @@ For a simple implementation look at the project in the `standalone_project` fold
 
   * Publish & wait for transmission (optional)
     
-    ``` java
+    ```java
     exampleTopic.publishEvent("exEvent1", "exParams1");
     try{
         Thread.sleep(1000);
@@ -65,7 +65,7 @@ For a simple implementation look at the project in the `standalone_project` fold
     
   * close topic
     
-    ``` java
+    ```java
     exampleTopic.closeTopic();  
     ```
     
