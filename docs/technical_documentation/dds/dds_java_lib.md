@@ -46,22 +46,44 @@ For a simple implementation look at the project in the `standalone_project` fold
     * Create a Topic<sup>1</sup>: `Topics exampleTopic = new Topics("exPart", "exTopic");`
     
 * Only Subscription
-![scrs1](screenshot1.png)
+    * Create a Listener class:
+        
+              import hu.bme.mit.gamma.ddslib.model.SubscriptionListener;
+
+              public class MyListener implements SubscriptionListener{
+                  public void gotMessage(String topic, String event, String params)
+                  {
+                      //Thing to do when a message arrives
+                  }
+              }
+              
+    * Instantiate the above mentioned Listener class:
+        
+          MyListener myListener = new MyListener();              
+        
+    * Register the Listener instance:
+    
+          exampleTopic.addSubscriptionListener(myListener); 
+    
+    * Don't forget to unregister & close
+   
+          exampleTopic.removeSubscriptionListener(myListener);
+          exampleTopic.closeTopic();  
     
 * Only publishing
-  * Publish & wait for transmission (optional)
+    * Publish & wait for transmission (optional)
         
-        exampleTopic.publishEvent("exEvent1", "exParams1");
-        try{
-            Thread.sleep(1000);
-        }catch(Exception e)
-        {
-            e.printStackTrace();
-        }
+          exampleTopic.publishEvent("exEvent1", "exParams1");
+          try{
+              Thread.sleep(1000);
+          }catch(Exception e)
+          {
+              e.printStackTrace();
+          }
     
-  * close topic
+    * close topic
         
-        exampleTopic.closeTopic();  
+          exampleTopic.closeTopic();  
     
 Important: you need to create a `Topics` instance for both the receiving and the transmitting parties! 
 
