@@ -9,6 +9,7 @@ pages:
         - 'Demo': 'blog/codegen/demo-1.md'
     - 'Dashboard': 
         - 'Introduction': 'blog/dashboard/monitoring_solution.md'
+        - 'Monitoring': 'blog/dashboard/monitoring.md'
         - 'Frontend': 'blog/dashboard/frontend.md'
         - 'Remote Terminal': 'blog/dashboard/SSH.md'
     - 'IoT':
