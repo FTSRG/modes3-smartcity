@@ -50,6 +50,7 @@ For a simple implementation look at the project in the `standalone_project` fold
     
 * Only publishing
   * Publish & wait for transmission (optional)
+        
         exampleTopic.publishEvent("exEvent1", "exParams1");
         try{
             Thread.sleep(1000);
@@ -59,6 +60,7 @@ For a simple implementation look at the project in the `standalone_project` fold
         }
     
   * close topic
+        
         exampleTopic.closeTopic();  
     
 Important: you need to create a `Topics` instance for both the receiving and the transmitting parties! 
