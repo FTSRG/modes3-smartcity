@@ -28,6 +28,6 @@ Thus we came to a properly working model - the next task was to divide it up int
 
 The lamps are controlled by two Raspberry PI 2, the control can be arbitrarily managed from a computer or a physical button run by a third PI 2. To write controller programs, we used the PI4J Java library as it seemed to be convenient to use. As our Java programs belonging to the Nodes (in this case PIs) have already been generated, the controller programs were rather simple - they realize listeners, which start the appropriate program when the signal is detected. The only thing left was to commit the completed files on the PIs. We carried out the transmission using our deployer, and finally - after lenghty debugging - the lights came alive.
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/a5AO5XbRryw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/a5AO5XbRryw" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 
