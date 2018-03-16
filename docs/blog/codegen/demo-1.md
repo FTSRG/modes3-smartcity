@@ -26,7 +26,7 @@ Thereby we came to a properly working model - the next task was to divide it up 
 
 ## Setting up the demo
 
-The lamps are controlled by two Raspberry PI 2, the control can be arbitrarily managed from a computer or a physical button run by a third PI 2. To write controller programs, we used the PI4J Java library as it seemed to be convenient to use. As our Java programs belonging to the Nodes (in this case PIs) have already been generated, the controller programs were rather simple - they realize listeners, which start the appropriate program when the signal is detected. The only thing left was to commit the completed files on the PIs. We carried out the transmission with SCP, and finally - after lenghty debugging :D - the lights came alive.
+The lamps are controlled by two Raspberry PI 2, the control can be arbitrarily managed from a computer or a physical button run by a third PI 2. To write controller programs, we used the PI4J Java library as it seemed to be convenient to use. As our Java programs belonging to the Nodes (in this case PIs) have already been generated, the controller programs were rather simple - they realize listeners, which start the appropriate program when the signal is detected. The only thing left was to commit the completed files on the PIs. We carried out the transmission with SCP, and finally - after lenghty debugging - the lights came alive.
 
 ## Video / photo of the demo
 
