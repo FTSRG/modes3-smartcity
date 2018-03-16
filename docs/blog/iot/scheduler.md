@@ -1,4 +1,4 @@
-<div style="text-align:center">[![](http://img.youtube.com/vi/PqeAt9e4j5s/0.jpg)](http://www.youtube.com/watch?v=PqeAt9e4j5s "Scheduler program Test")</div>
+<div style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/PqeAt9e4j5s" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 An intelligent railway system necessitates not only sensor data, but also a management system, which is responsible for scheduling and controlling the trains. In former years (and in a former IoT challenge), the physical layout, and a safety logic was developed by the research group. In this project we aimed at extending former developments with an intelligent component to support the smart operation of the system.
 
