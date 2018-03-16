@@ -25,6 +25,10 @@ tries to optimize its operation.
  
 * We have also prepared a prototype of a signalling system with our developer tool to illustrate its applicability in this critical setting.
 
+Beside the an operational system, we aimed at providing tools to design critcal IIoT applications and we also developed an end-to-end IoT data collector and analysis framework
+built from open-source technologies.
+
+![Proposed approach for the IoT Challenge](smartcity_overview_figures.png)
 
 #	Description of the project
 On top of the physical setting, we have designed and implemented sensor packages containing the most essential sensors. The included sensors are the following:
@@ -43,7 +47,7 @@ component and gathers the information from the sensors. In addition, Kura provid
 An example for that: the street-lights are switched on by the local components as we can not ensure that the cloud is always available.
 The main rule of thumb is to deploy critical logic at this level, which is needed instantly.
 
-![Collecting and analyzing IoT data](technologies.png)
+![Collecting and analyzing IoT data](blog/iot/technologies.png)
 
 The gathered information is sent towards an Eclipse Kapua component. We can manage the local components running Kura and Kapua also helps 
 gathering the data. Data is also filtered at this level: we can decide the data which is worth sending to the cloud intelligence.
@@ -73,7 +77,7 @@ with precise composition semantics, formal verification and test generation. Our
  * a DDS-based runtime
  * a code generator (built using open-source technologies).
 
-![Overview of our approach](overview_of_the_approach.png)
+![Overview of our approach](blog/codegen/overview_of_the_approach.png)
 
 These technologies constitute a framework to support the development of critical, real-time, distributed IIoT applications.
 
