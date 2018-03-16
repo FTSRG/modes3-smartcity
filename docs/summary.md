@@ -43,7 +43,7 @@ and it can transmit this information to the controller.
 
 The physical information is processed on open-source hardware in the Edge: Raspberry Pi microcomputers run the open-source Kura
 component and gathers the information from the sensors. In addition, Kura provides management capabilities and we also implemented local reactions in this level.
-An example for that: the street-lights are switched on by the local components as we can not ensure that the cloud is always available.
+An example for that: the street-lights are switched on (or off) by the local components as we can not ensure that the cloud is always available.
 The main rule of thumb is to deploy critical logic at this level, which is needed instantly.
 
 ![Collecting and analyzing IoT data](blog/iot/technologies.png)
@@ -112,7 +112,7 @@ thank Prismtech for the provided licenses and support.
 
 The monitoring of the distributed DDS-based system also uses various open-source technologies such as jquery, dotty, php, DDS and many others.
 
-#	Applicability of a solution to a specific industry
+#	Applicability of the solution to a specific industry
 Application was the main motivation during our work, so we tried to apply all the techniques and technologies 
 in our MoDeS3 demonstrator system and extend its capabilities. We believe that in this project we can only demonstrate the working of our technology
 in the demonstrator, but the used approaches would scale even to the size of real smart city environments. 
