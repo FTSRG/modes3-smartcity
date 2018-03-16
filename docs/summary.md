@@ -15,10 +15,9 @@ The smart city platform is operated by our management framework and it has vario
 * Transportation system reacts to the (changes of the) environmental conditions. Various sensors on open-source hardware 
 observe the conditions on the trains, monitor the temperature and light conditions, measure the vibration of the tracks. 
 The information gained from the physical observations is used for various purposes: 
-   
-   * Detect anomalies such as accidents, speed limit violations.
-   * Report dangerous environmental conditions, such as ice or overheated tracks.
-   * Control the system, such as we can switch on the lamps in case of darkness.
+    * Detect anomalies such as accidents, speed limit violations.
+    * Report dangerous environmental conditions, such as ice or overheated tracks.
+    * Control the system, such as we can switch on the lamps in case of darkness.
 * Transportation system manages the trains and the tasks intelligently. It makes decision according to the conditions and the system
 tries to optimize its operation. 
 * We have also prepared a prototype of a signalling system with our developer tool to illustrate its applicability in this critical setting.
