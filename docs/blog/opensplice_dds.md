@@ -18,6 +18,6 @@ In order to overcome this kind-of serious issue our teem has developed a library
 * Handling `QoS`s 
 
 ## Using our library
-Unfortunately at this time we cannot redistribute the binary packages of the Vortex OpenSplice DDS hat we got as part of the Evaluation License. However, the introduced library works just as well with the Community Edition releases therefore providing an exceptionally easy-to-use way of using DDS in your application as well - see the [technical documentation](/path/to/doksi) for more details and a user guide! 
+Unfortunately at this time we cannot redistribute the binary packages of the Vortex OpenSplice DDS hat we got as part of the Evaluation License. However, the introduced library works just as well with the Community Edition releases therefore providing an exceptionally easy-to-use way of using DDS in your application as well - see the [technical documentation](http://modes3-smartcity.readthedocs.io/en/latest/technical_documentation/dds/dds_java_lib/) for more details and a user guide! 
 We have successfully used it as a means of getting Events in complex statemachines go through our LAN (and even the University's quite big network!), so it is definitely functional and reliable - maybe this is what you need for your next project.
 We hope that our contribution combined with the design tool (also introduced in an other blogpost) will serve the needs of the designers of future IIoT applications. 
