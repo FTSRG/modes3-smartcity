@@ -1,7 +1,7 @@
 site_name: MoDeS3 SmartCity
 pages:
 - 'Introduction': 'index.md'
-- 'IoT challenge summary:' 'summary.md'
+- 'IoT Challenge Summary': 'summary.md'
 - 'Blog':
     - 'Gamma over DDS':
         - 'DDS Implementation': 'blog/opensplice_dds.md'
