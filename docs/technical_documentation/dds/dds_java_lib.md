@@ -1,5 +1,5 @@
 ## Java library for interfacing with the OpenSplice DDS implementation
-
+*Source code and compiled library coming soon! Right now this documentation serves more as a teaser rather than an actual usage guide.*
 ### Requirements
 
 * OpenSplice
