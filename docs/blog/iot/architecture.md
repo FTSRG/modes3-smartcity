@@ -6,7 +6,7 @@ As a result, the traditional methods of data processing are not good enough, we 
 
 ![communication diagram](comm_diagram.png)
 
-<iframe width="560" height="315" src="https://www.youtube.com/embed/zMGLd9mE0eU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<div style="text-align:center"><iframe width="560" height="315" src="https://www.youtube.com/embed/zMGLd9mE0eU" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe></div>
 
 
 Thus we created a multi-level data processing system. It is a strongly hierarchical system with local centers which are able to collect, filter and forward the data of the sensors to a central data analyser software. These local collectors are Eclipse Kura based gateways with edge computing ability in order to detect and handle local problems. These gateways are connected to a device manager software which collects all data from the gateways and also provide an interface for the configuration of the gateways. Then our data manager software reads out the data from the local database of the device manager.
