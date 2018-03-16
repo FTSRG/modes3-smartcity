@@ -9,7 +9,7 @@ After we had decided to use DDS for the communication between the components of 
 ## Introducing an abstraction layer to OpenSplice DDS
 
 Even though this DDS implementation is the optimal library for our needs, it is very far from perfect (as it is to be expected from a software this versatile). The documentation is sparse, the available materials are not at all straightforward, and overall the feeling of it is that it *can* do everything we ask for (and even more), but it *will not* show you how to achieve that.
-In order to overcome this kind-of serious issue our teem has developed a library (to serve as an abstraction layer) that sits on top of the OpenSplice libraries and does all the dirty work - initializes the runtime environment, loads the classes, creates the domain participants and so on. Of course, as it is only an abstraction (and I'm not stating that I would've created a better solution for the problem than Vortex itself) it can do way less than what the OpenSplice DDS is capable of, but for what we need it, it is perfect: 
+In order to overcome this kind-of serious issue our teem has developed a library (to serve as an abstraction layer) that sits on top of the OpenSplice libraries and does all the dirty work - initializes the runtime environment, loads the classes, creates the domain participants and so on. Of course, as it is only an abstraction (and we're not stating that we would've created a better solution for the problem than Vortex itself) it can do way less than what the OpenSplice DDS is capable of, but for what we need it, it is perfect: 
 
 * Creating `Topics` in `Partitions` of the `GDS` (Global Data Space)
 * `Subscribing` to these `Topics` via `Listeners` (and of course via `DataReader` instances)
@@ -18,6 +18,6 @@ In order to overcome this kind-of serious issue our teem has developed a library
 * Handling `QoS`s 
 
 ## Using our library
-Unfortunately at this time we cannot redistribute the binary packages of the Vortex OpenSplice DDS hat we got as part of the Evaluation License. However, the introduced library works just as well with the Community Edition releases therefore providing an exceptionally easy-to-use way of using DDS in your application as well - see the [technical documentation](http://modes3-smartcity.readthedocs.io/en/latest/technical_documentation/dds/dds_java_lib/) for more details and a user guide! 
+Unfortunately at this time we cannot redistribute the binary packages of the Vortex OpenSplice DDS that we got as part of the Evaluation License. However, the introduced library works just as well with the Community Edition releases therefore providing an exceptionally easy-to-use way of using DDS in your application as well - see the [technical documentation](http://modes3-smartcity.readthedocs.io/en/latest/technical_documentation/dds/dds_java_lib/) for more details and a user guide! 
 We have successfully used it as a means of getting Events in complex statemachines go through our LAN (and even the University's quite big network!), so it is definitely functional and reliable - maybe this is what you need for your next project.
 We hope that our contribution combined with the design tool (also introduced in an other blogpost) will serve the needs of the designers of future IIoT applications. 
