@@ -12,6 +12,7 @@ pages:
         - 'Monitoring': 'blog/dashboard/monitoring.md'
         - 'Frontend': 'blog/dashboard/frontend.md'
         - 'Remote Terminal': 'blog/dashboard/SSH.md'
+        - 'Deployment': 'blog/dashboard/deploy.md'
     - 'IoT':
         - 'Data Analysis': 'blog/iot/data_analysis.md'
         - 'Scheduler': 'blog/iot/scheduler.md'
