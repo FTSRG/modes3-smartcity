@@ -4,7 +4,7 @@ pages:
 - 'IoT Challenge Summary': 'summary.md'
 - 'Blog':
     - 'Gamma over DDS':
-	    - 'Overview' : 'blog/overview_gamma_dds.md'
+        - 'Overview' : 'blog/overview_gamma_dds.md'
         - 'DDS Implementation': 'blog/opensplice_dds.md'
         - 'List of technologies used': 'blog/codegen/Technologies.md'
         - 'Code Generation': 'blog/codegen/CodeGen.md'
