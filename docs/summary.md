@@ -56,7 +56,7 @@ As we mentioned in the former posts, we integrated together various components i
  * Data analytics services to use predictive analysis techniques to optimize the operation of the system.
 
 You can find more information of the IoT data processing solution here:
-<http://modes3-smartcity.readthedocs.io/en/latest/blog/iot/architecture/>
+<http://modes3-smartcity.readthedocs.io/en/latest/blog/iot/IIoT_Architecture/>
 
 The aforementioned components are connected to an intelligent control system, which is responsible to:
 
@@ -74,7 +74,7 @@ with precise composition semantics, formal verification and test generation. Our
 
  * we provide a deployment language
  * a DDS-based runtime
- * a code generator (built using open-source technologies).
+ * a code generator (using open-source technologies).
 
 ![Overview of our approach](blog/codegen/overview_of_the_approach.png)
 
@@ -112,9 +112,14 @@ thank Prismtech for the provided licenses and support.
 
 The monitoring of the distributed DDS-based system also uses various open-source technologies such as jquery, dotty, php, DDS and many others.
 
+As you can see, we heavily used open-source technologies. It is amazing, how complex systems can be built by using only open-source techniques! If you have any question, drop us an e-mail, we are open to discuss them!
+
+
 #	Applicability of the solution to a specific industry
 Application was the main motivation during our work, so we tried to apply all the techniques and technologies 
 in our MoDeS3 demonstrator system and extend its capabilities. We believe that in this project we can only demonstrate the working of our technology
 in the demonstrator, but the used approaches would scale even to the size of real smart city environments. 
 Our technology decisions were always motivated to find technologies which could even by used by the industry.
 We took the first steps towards a smart city built fully from open-source technologies!
+
+In the future, we hope that we will be able to show this project in a future EclipseCon conference!
