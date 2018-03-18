@@ -1,4 +1,4 @@
-﻿# MoDeS3-SmartCity
+# MoDeS3-SmartCity
 ## A project for the Open IoT Challenge 4.0
 
 Hi All!  We are a group of students and researchers from the Budapest University of Technology and Economics. You will see our innovative project of building a smart city, on top of a demonstrator railway system. The ingredients of our project are various open-source technologies (Eclipse, Apache) and we heavily relied on the well-established foundation of the fog computing paradigm.
