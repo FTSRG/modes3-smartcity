@@ -21,7 +21,7 @@ For this reason, we created a multi-level data processing system. It is a strong
 
 The nodes are managed by a component running Eclipse Kapua. Eclipse Kapua help us a lot, besides some problems faced during the integration, it provides us with some nice feature. We really wait for its final and stable version.
 
-[Working of Eclipse Kapua framewrok](kapua.png)
+[Working of Eclipse Kapua framework](kapua.png)
 So, the hubs are connected to a device management software that collects data, and also provides an interface for the configuration of the gateways. Our data manager software then reads the data from the local database of the device manager and send the data into our bigdata analysis server, which calculate the mechanical stress of the physical system, approximate the time of the next maintenance, search for malfunctioning devices and creates reports about the conditions of the operation.
 
 In the following you can see some pictures of the sensors and the smart city component we created for the IoT challenge. 
