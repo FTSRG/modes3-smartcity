@@ -1,4 +1,6 @@
 ﻿
+# Gamma + DDS = IIoT development framework
+
 The Gamma Statechart Composition Framework is a toolset to model, verify and generate code for component-based reactive systems. The framework builds on Yakindu, an open source statechart modelling tool and provides an additional modelling layer to instantiate a communicating network of statecharts. Compositionality is hierarchical, which facilitates the creation of reusable component libraries. Individual statecharts, as well as composite statechart networks, can be validated and verified by an automated translation to UPPAAL, a model checker for timed automata. Once a complete model is built, designers can use the code generation functionality of the framework, which can generate Java code for the whole system.
 In this project, we extend the Gamma framework to be able to synthesize distributed real-time applications, that can control IIoT applications in the fog. We chose the Gamma framework as we want to use its features such as verification, test generation and code generation. This way we can support the design of correct, distributed real-time applications.
 
